@@ -28,12 +28,12 @@ class ViewController: UIViewController {
         button.frame = CGRectMake(100, 200, 100, 30)
         button.backgroundColor = UIColor.blueColor()
         view.addSubview(button)
-        button.setBadgeCount(90)
+        button.hld_setBadgeCount(90)
         
         let cell = UITableViewCell(frame: CGRect(x: 200, y: 200, width: 150, height: 44))
         cell.contentView.backgroundColor = UIColor.yellowColor()
         view.addSubview(cell)
-        cell.setCellBadgeCount(20)
+        cell.hld_setCellBadgeCount(20)
     }
 
     override func didReceiveMemoryWarning() {

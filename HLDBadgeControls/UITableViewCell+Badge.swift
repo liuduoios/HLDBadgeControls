@@ -22,7 +22,7 @@ extension UITableViewCell {
         }
     }
     
-    func setCellBadgeCount(count: UInt) {
+    public func hld_setCellBadgeCount(count: UInt) {
         if cellBadgeView == nil {
             cellBadgeView = HLDBadgeView()
             cellBadgeView!.autoHideWhenZero = true
@@ -30,14 +30,14 @@ extension UITableViewCell {
         }
         
         cellBadgeView!.setCount(count)
-        updateBadgeViewCenter()
+        _updateBadgeViewCenter()
     }
     
-    private func updateBadgeViewCenter() {
+    private func _updateBadgeViewCenter() {
         cellBadgeView?.center = CGPoint(x: CGRectGetMaxX(contentView.bounds) - CGRectGetWidth(contentView.bounds) * 0.2, y: CGRectGetMidY(contentView.bounds))
     }
     
-    public func setX(x: CGFloat) {
+    public func hld_setX(x: CGFloat) {
         if let badgeView = cellBadgeView {
             var rect = badgeView.frame
             rect.origin.x = x

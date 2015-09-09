@@ -22,7 +22,7 @@ extension UIView {
         }
     }
     
-    func setBadgeCount(count: UInt) {
+    public func hld_setBadgeCount(count: UInt) {
         if badgeView == nil {
             let adgeView = HLDBadgeView()
             badgeView = adgeView
@@ -31,10 +31,10 @@ extension UIView {
         }
         
         badgeView!.setCount(count)
-        updateBadgeViewCenter()
+        _updateBadgeViewCenter()
     }
     
-    private func updateBadgeViewCenter() {
+    private func _updateBadgeViewCenter() {
         badgeView!.center = CGPoint(x: CGRectGetMaxX(bounds), y: 0)
     }
     
