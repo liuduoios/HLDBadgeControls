@@ -1,7 +1,10 @@
 # HLDBadgeControls
-Some Controls with Badge
+###Some Controls with Badge：
 
+**SmallRedDot**  
+**BadgeView**  
 **UIView+Badge**  
-**UITableViewCell+Badge**
+**UITableViewCell+Badge**  
+
 
 ![](effect.png)
