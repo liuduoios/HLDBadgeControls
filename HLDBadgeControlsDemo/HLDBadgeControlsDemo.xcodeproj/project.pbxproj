@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86661AFA1BA0303300211F89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86661AF91BA0303300211F89 /* AppDelegate.swift */; };
+		86661AFC1BA0303300211F89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86661AFB1BA0303300211F89 /* ViewController.swift */; };
+		86661AFF1BA0303300211F89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86661AFD1BA0303300211F89 /* Main.storyboard */; };
+		86661B011BA0303300211F89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86661B001BA0303300211F89 /* Assets.xcassets */; };
+		86661B041BA0303300211F89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86661B021BA0303300211F89 /* LaunchScreen.storyboard */; };
+		86661B0D1BA0309100211F89 /* HLDSmallRedDot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86661B0C1BA0309100211F89 /* HLDSmallRedDot.swift */; settings = {ASSET_TAGS = (); }; };
+		86661B0F1BA031AC00211F89 /* HLDBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86661B0E1BA031AC00211F89 /* HLDBadgeView.swift */; settings = {ASSET_TAGS = (); }; };
+		86661B111BA03B1500211F89 /* UIView+Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86661B101BA03B1500211F89 /* UIView+Badge.swift */; settings = {ASSET_TAGS = (); }; };
+		86661B131BA0418800211F89 /* UITableViewCell+Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86661B121BA0418800211F89 /* UITableViewCell+Badge.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		86661AF61BA0303300211F89 /* HLDBadgeControlsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLDBadgeControlsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86661AF91BA0303300211F89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		86661AFB1BA0303300211F89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		86661AFE1BA0303300211F89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86661B001BA0303300211F89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86661B031BA0303300211F89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86661B051BA0303300211F89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86661B0C1BA0309100211F89 /* HLDSmallRedDot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLDSmallRedDot.swift; sourceTree = "<group>"; };
+		86661B0E1BA031AC00211F89 /* HLDBadgeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLDBadgeView.swift; sourceTree = "<group>"; };
+		86661B101BA03B1500211F89 /* UIView+Badge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Badge.swift"; sourceTree = "<group>"; };
+		86661B121BA0418800211F89 /* UITableViewCell+Badge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Badge.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86661AF31BA0303300211F89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86661AED1BA0303300211F89 = {
+			isa = PBXGroup;
+			children = (
+				86661B0B1BA0305100211F89 /* HLDBadgeControls */,
+				86661AF81BA0303300211F89 /* HLDBadgeControlsDemo */,
+				86661AF71BA0303300211F89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86661AF71BA0303300211F89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86661AF61BA0303300211F89 /* HLDBadgeControlsDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86661AF81BA0303300211F89 /* HLDBadgeControlsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				86661AF91BA0303300211F89 /* AppDelegate.swift */,
+				86661AFB1BA0303300211F89 /* ViewController.swift */,
+				86661AFD1BA0303300211F89 /* Main.storyboard */,
+				86661B001BA0303300211F89 /* Assets.xcassets */,
+				86661B021BA0303300211F89 /* LaunchScreen.storyboard */,
+				86661B051BA0303300211F89 /* Info.plist */,
+			);
+			path = HLDBadgeControlsDemo;
+			sourceTree = "<group>";
+		};
+		86661B0B1BA0305100211F89 /* HLDBadgeControls */ = {
+			isa = PBXGroup;
+			children = (
+				86661B0C1BA0309100211F89 /* HLDSmallRedDot.swift */,
+				86661B0E1BA031AC00211F89 /* HLDBadgeView.swift */,
+				86661B101BA03B1500211F89 /* UIView+Badge.swift */,
+				86661B121BA0418800211F89 /* UITableViewCell+Badge.swift */,
+			);
+			name = HLDBadgeControls;
+			path = ../HLDBadgeControls;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86661AF51BA0303300211F89 /* HLDBadgeControlsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86661B081BA0303300211F89 /* Build configuration list for PBXNativeTarget "HLDBadgeControlsDemo" */;
+			buildPhases = (
+				86661AF21BA0303300211F89 /* Sources */,
+				86661AF31BA0303300211F89 /* Frameworks */,
+				86661AF41BA0303300211F89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HLDBadgeControlsDemo;
+			productName = HLDBadgeControlsDemo;
+			productReference = 86661AF61BA0303300211F89 /* HLDBadgeControlsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86661AEE1BA0303300211F89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Derek Liu";
+				TargetAttributes = {
+					86661AF51BA0303300211F89 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 86661AF11BA0303300211F89 /* Build configuration list for PBXProject "HLDBadgeControlsDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86661AED1BA0303300211F89;
+			productRefGroup = 86661AF71BA0303300211F89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86661AF51BA0303300211F89 /* HLDBadgeControlsDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86661AF41BA0303300211F89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86661B041BA0303300211F89 /* LaunchScreen.storyboard in Resources */,
+				86661B011BA0303300211F89 /* Assets.xcassets in Resources */,
+				86661AFF1BA0303300211F89 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86661AF21BA0303300211F89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86661B0D1BA0309100211F89 /* HLDSmallRedDot.swift in Sources */,
+				86661B131BA0418800211F89 /* UITableViewCell+Badge.swift in Sources */,
+				86661AFC1BA0303300211F89 /* ViewController.swift in Sources */,
+				86661AFA1BA0303300211F89 /* AppDelegate.swift in Sources */,
+				86661B0F1BA031AC00211F89 /* HLDBadgeView.swift in Sources */,
+				86661B111BA03B1500211F89 /* UIView+Badge.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		86661AFD1BA0303300211F89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86661AFE1BA0303300211F89 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		86661B021BA0303300211F89 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86661B031BA0303300211F89 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86661B061BA0303300211F89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86661B071BA0303300211F89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86661B091BA0303300211F89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HLDBadgeControlsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.derekliu.HLDBadgeControlsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		86661B0A1BA0303300211F89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HLDBadgeControlsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.derekliu.HLDBadgeControlsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86661AF11BA0303300211F89 /* Build configuration list for PBXProject "HLDBadgeControlsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86661B061BA0303300211F89 /* Debug */,
+				86661B071BA0303300211F89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86661B081BA0303300211F89 /* Build configuration list for PBXNativeTarget "HLDBadgeControlsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86661B091BA0303300211F89 /* Debug */,
+				86661B0A1BA0303300211F89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86661AEE1BA0303300211F89 /* Project object */;
+}
